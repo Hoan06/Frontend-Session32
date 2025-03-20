@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 30px;
+      }
+      #button {
+        border-radius: 10px;
+        padding: 10px;
+        background-color: green;
+        color: white;
+        border: 1px solid green;
+      }
+      #item {
+        border-bottom: 1px solid gray;
+        width: 20%;
+        display: none;
+      }
+      #btn-X {
+        background-color: red;
+        border-radius: 4px;
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+      }
+      li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        padding: 10px;
+        margin-right: 30px;
+        padding: 10px 3 0px;
+      }
+    </style>
+  </head>
+  <body style="background-color: gray">
+    <form
+      action=""
+      style="
+        border-radius: 4px;
+        background-color: white;
+        width: 350px;
+        margin-left: 37%;
+        margin-top: 5%;
+        padding: 10px;
+      "
+    >
+      <div style="padding: 30px">
+        <input
+          style="padding-left: 20px"
+          id="input"
+          type="text"
+          placeholder="Nhập nhiệm vụ..."
+        />
+        <button id="button">Thêm</button>
+      </div>
+      <div>
+        <ul id="taskList"></ul>
+      </div>
+    </form>
+    <script src="./bai5.js"></script>
+  </body>
+</html>
